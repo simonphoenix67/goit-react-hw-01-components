@@ -12,7 +12,6 @@ export const Friends = ({ friends }) => {
             </span>
             <img className={css.avatar} src={avatar} alt={name} />
             <p className={css.friends__name}>{name}
-
             </p>
           </li>
         ))}
